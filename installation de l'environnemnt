@@ -1,0 +1,12 @@
+Le backend est fait avec Laravel 
+pour installer vous devez avoir Wamp ¦¦ Xaamp et Composer
+ensuite vous rendre dans le repertoire "Mairie\Backend\api_ogii"
+Puis executer la commande "composer Update" pour avoir le fichier Vendor
+ensuite dans le même repertoire executer " php artisan db:seed --class=AdminSeeder" pour creer un compte utilisateur Admin
+enfin lancer le serveur avec " php artisan serve"
+puis placez-vous dans le project Flutter  et installer les packages
+puis lancer l'app
+et connectez-vous avec le numero "12345678" password "1234" pour Admin
+mais pour l'utilisateur simple vous devriez creer un compte en cliquant sur "creer un compte"
+
+Merci Nouhou ABouba Maiga

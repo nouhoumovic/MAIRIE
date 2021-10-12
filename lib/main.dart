@@ -1,5 +1,4 @@
 import 'package:bhs/constants.dart';
-import 'package:bhs/controllers/MenuController.dart';
 import 'package:bhs/providers/acte_provider.dart';
 import 'package:bhs/providers/auth_providers.dart';
 import 'package:bhs/providers/role_provider.dart';
@@ -58,9 +57,6 @@ class _OgiiState extends State<OgiiApp> {
       providers: [
         ChangeNotifierProvider.value(
           value: authProvider,
-        ),
-        ChangeNotifierProvider(
-          create: (context) => MenuController(),
         ),
         ChangeNotifierProxyProvider<AuthProvider, ActeApiProvider>(
             create: (_) => ActeApiProvider(),
